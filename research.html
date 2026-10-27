@@ -1,129 +1,78 @@
-<div class="research" id="research">
-    <div class="title-research">Research</div>
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Kejda Llana</title>
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	</head>
 
-    <ul>
+    <body id="page-top">
+        <div class="container">
+            <nav class="navigation-bar">
+                <a class="name" href="#page-top">Kejda Llana</a>
+                <div class="nav-list">
+                    <a class="list-element" href="index.html">Home</a>
+                    <a class="list-element" href="cv.html">CV</a>
+                    <a class="list-element" href="research.html">Research</a>
+                </div>
+            </nav>
+            <div class="hrule"></div>
+            <div class="body-things">
+                
+                <div class="research" id="research">
+                    <div class="title-research">Research</div>
+                    <ul>
 
-        <!-- JOB MARKET PAPER -->
-        <li>
-            <strong>Building Futures: The Impact of Affordable Housing on Student Achievement</strong>
-            (Job Market Paper:
-            <a href="https://drive.google.com/file/d/1an-MYJg9lco-7AId_faK9capLrppby7K/view?usp=sharing"
-               target="_blank">
-                Paper
-            </a>)
-        </li>
+                        <li>Building Futures: The Impact of Affordable Housing on Student Achievement (Job Market Paper: <a href="https://drive.google.com/file/d/1an-MYJg9lco-7AId_faK9capLrppby7K/view?usp=sharing">Link Here</a>)</li>
+                        <div class="abstract">
+                            Created in 1986, the Low Income Housing Tax Credit (LIHTC) has become one of the primary place-based housing policy tools used to address housing affordability barriers for low-income households through the provision of subsidized rental units across the United States. This study examines how proximity to newly placed LIHTC developments affects K-12 public school students and the schools they attend. I link geocoded HUD LIHTC data with approximately 2.8 million student-year observations from Wisconsin public schools and use a spatial ring design combined with a staggered Difference-in-Differences (DiD) framework. Findings indicate that LIHTC exposure reduces student attendance by 0.69 percentage points and increases chronic absenteeism by 2.28 percentage points. Event-study estimates show no evidence of differential pre-trends and suggest that attendance effects accumulate over time. Achievement effects are more limited: math scores increase by 0.042 standard deviations for middle school students and 0.021 standard deviations for high school students, while ELA effects remain close to zero. The findings suggest that place-based affordable housing investments can generate meaningful educational spillovers for nearby students and schools.
+                        </div>
 
-        <div class="abstract">
-            This paper examines how nearby Low-Income Housing Tax Credit (LIHTC)
-            development affects student engagement and academic achievement. I link
-            geocoded HUD LIHTC data with longitudinal administrative records for
-            approximately 2.8 million student-year observations from Wisconsin public
-            schools and use a spatial, staggered difference-in-differences design.
-            LIHTC exposure reduces attendance by 0.69 percentage points and increases
-            chronic absenteeism by 2.28 percentage points. Effects accumulate over time,
-            while achievement effects are more limited: math scores increase by 0.042
-            standard deviations among middle-school students and 0.021 standard
-            deviations among high-school students, with little change in ELA scores.
-            The findings show that place-based housing investments can generate
-            meaningful spillovers for nearby students and schools.
+                        <li>Affordable Housing, School Composition, and Institutional Adjustment: Evidence from LIHTC Placement (Working Paper)</li>
+                        <div class="abstract">
+                            This study examines whether Low Income Housing Tax Credit (LIHTC) placement reshapes nearby public schools as institutions. Using a Wisconsin school-year panel and a spatial, staggered Difference-in-Differences design, I estimate the effects of nearby LIHTC development on school demographic composition, special-population enrollment, racial and ethnic diversity, and accountability outcomes. LIHTC exposure is associated with an increase in Hispanic enrollment, economically disadvantaged enrollment, and the share of students with disabilities, while racial and ethnic diversity also increases. At the same time, overall school accountability scores decline by approximately 1.9 points, with larger declines among middle schools. The findings suggest that affordable housing development can influence not only the households and neighborhoods in which it is located, but also the composition and institutional environment of nearby public schools.
+                        </div>
+
+                        <li>Housing Market Shocks, Affordability, and Cognitive Aging: Evidence from the Great Recession (Working Paper)</li>
+                        <div class="abstract">
+                            This study examines whether local housing-market shocks during the Great Recession contributed to subsequent cognitive decline among older adults. I link restricted longitudinal Health and Retirement Study data with county-level measures of house prices, rents, unemployment, income, and housing affordability. The analysis examines whether declines in local housing values affect cognitive trajectories and whether these effects vary according to pre-existing household and area-level housing affordability pressures. Particular attention is given to potential mechanisms operating through changes in housing wealth, mortgage distress, and housing-cost burden. More broadly, the project examines housing and household financial conditions as social and economic determinants of health across the life course.
+                        </div>
+
+                        <li>Hospital Market Structure and Medical Debt Collections (Working Paper)</li>
+                        <div class="abstract">
+                            This study examines the relationship between hospital market structure and household medical debt. We combine American Hospital Association data with individual-level medical collections information from the Federal Reserve Bank of New York/Equifax Consumer Credit Panel and conduct analyses at the county and hospital referral region levels. The project examines geographic variation in medical collections, hospital market concentration, and changes in market structure over time, including those associated with hospital mergers. More broadly, the study investigates whether the organization of local healthcare markets is linked to the financial burden of medical care experienced by households.
+                        </div>
+
+                        <li>“Nowcasting” of Food Hardship: Applying Machine Learning to Aggregate Retail Sales Data (Under Review)</li>
+                        <div class="abstract">
+                            To develop tools to nowcast food hardship, we use national and state-level data from the Household Pulse Survey (HPS) and USDA Weekly Retail Food Sales data to identify predictors of food insufficiency using Least Absolute Shrinkage and Selection Operator (LASSO). Current and lagged food spending predict food insufficiency in an unexpected positive direction, while unit sales are predictive in the expected direction. Incorporating spending across food categories improves predictive performance. Within categories, Fats, Oils, and Sweeteners, as well as Vegetable sales, possess predictive power across models. Beverages and Grains predict food insufficiency using national data, while Fruit and Other categories provide predictive information using state-level data.
+                        </div>
+
+                        <li>Breaking Barriers to Access: Medicaid Coverage, Take-Up, and Exit of GLP-1s (Working Paper)</li>
+                        <div class="abstract">
+                            GLP-1 medications have transformed the treatment of obesity and Type 2 diabetes, but high costs and differences in insurance coverage continue to create barriers to access. This study examines how state Medicaid coverage of GLP-1 medications for obesity affects prescription utilization. We construct a state-by-quarter panel using Centers for Medicare &amp; Medicaid Services Medicaid State Drug Utilization Data from 2019 through 2025 and leverage variation in the timing of state coverage adoption. Medicaid coverage is associated with an increase of approximately 11.5 obesity-specific GLP-1 prescriptions per 1,000 enrollees per quarter, with effects increasing over time following coverage adoption. The project also examines differences across fee-for-service and managed-care utilization and changes in state coverage policies, including subsequent coverage exits.
+                        </div>
+
+                        <li>Medicaid Coverage of GLP-1s for Obesity and Population Health Outcomes (Working Paper)</li>
+                        <div class="abstract">
+                            This study examines whether expanded Medicaid coverage of GLP-1 medications for obesity translates into changes in population health. We link variation in state Medicaid coverage policies with Behavioral Risk Factor Surveillance System (BRFSS) data and examine obesity and related health outcomes among populations potentially affected by Medicaid policy. The project complements analyses of prescription utilization by asking whether increased access to GLP-1 medications following coverage expansions generates measurable changes in health outcomes.
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
         </div>
 
-
-        <!-- SECOND SCHOOL PAPER -->
-        <li>
-            <strong>Affordable Housing, School Composition, and Institutional Adjustment:
-            Evidence from LIHTC Placement</strong>
-            (Working Paper)
-        </li>
-
-        <div class="abstract">
-            This paper examines whether affordable housing development reshapes nearby
-            public schools as institutions. Using a Wisconsin school-year panel and a
-            spatial, staggered difference-in-differences design, I estimate the effects
-            of nearby LIHTC placement on racial and ethnic composition, economically
-            disadvantaged enrollment, school diversity, and accountability outcomes.
-            LIHTC placement increases racial and ethnic diversity and the share of
-            economically disadvantaged students while reducing overall school
-            accountability scores. The findings highlight an important institutional
-            dimension of place-based housing policy: affordable housing development can
-            change not only where households live, but also the composition and demands
-            faced by nearby public schools.
-        </div>
-
-
-        <!-- GREAT RECESSION / COGNITIVE AGING -->
-        <li>
-            <strong>Housing Market Shocks, Affordability, and Cognitive Aging:
-            Evidence from the Great Recession</strong>
-            (Working Paper)
-        </li>
-
-        <div class="abstract">
-            This project examines whether housing-market shocks during the Great
-            Recession affected subsequent cognitive aging among older adults. I link
-            restricted longitudinal Health and Retirement Study data with county-level
-            measures of house prices, rents, unemployment, income, and housing
-            affordability. The analysis examines several mechanisms through which
-            housing-market disruptions may influence later-life health, including
-            housing-wealth losses, mortgage distress, and housing-cost burden, with
-            particular attention to households facing greater financial vulnerability.
-        </div>
-
-
-        <!-- GLP-1 -->
-        <li>
-            <strong>Breaking Barriers to Access: Medicaid Coverage, Take-Up, and Exit
-            of GLP-1s</strong>
-            (Working Paper)
-        </li>
-
-        <div class="abstract">
-            This study examines how state Medicaid coverage policies affect utilization
-            of GLP-1 medications for obesity. I construct a state-by-quarter panel using
-            Centers for Medicare &amp; Medicaid Services State Drug Utilization Data
-            from 2019 through 2025 and exploit variation in the timing of state coverage
-            adoption. Medicaid coverage is associated with an increase of approximately
-            11.5 prescriptions for obesity-specific GLP-1 medications per 1,000
-            enrollees per quarter. The analysis also examines how effects evolve over
-            time, differences between fee-for-service and managed-care utilization, and
-            changes in state coverage policy, including subsequent exits.
-        </div>
-
-
-        <!-- HOSPITAL MARKETS -->
-        <li>
-            <strong>Hospital Market Structure and Medical Debt Collections</strong>
-            (Working Paper)
-        </li>
-
-        <div class="abstract">
-            This project examines the relationship between hospital market structure
-            and household medical debt. We link hospital-market information from the
-            American Hospital Association with consumer-credit data from the Federal
-            Reserve Bank of New York/Equifax Consumer Credit Panel. The analysis
-            documents geographic variation in medical collections across counties and
-            hospital referral regions and examines how differences and changes in
-            hospital market structure relate to household financial exposure.
-        </div>
-
-
-        <!-- FOOD HARDSHIP -->
-        <li>
-            <strong>Nowcasting Food Hardship: Applying Machine Learning to Aggregate
-            Retail Sales Data</strong>
-            (Under Review)
-        </li>
-
-        <div class="abstract">
-            This study develops tools to nowcast food hardship using national and
-            state-level Household Pulse Survey data and USDA Weekly Retail Food Sales
-            data. We use Least Absolute Shrinkage and Selection Operator (LASSO)
-            methods to identify retail-sales measures that predict food insufficiency.
-            Food spending, unit sales, and spending across specific food categories
-            provide predictive information, demonstrating the potential for
-            high-frequency retail data to complement traditional measures of household
-            food hardship.
-        </div>
-
-    </ul>
-</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
+```
