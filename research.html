@@ -1,44 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Kejda Llana</title>
-		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link href="style.css" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-	</head>
+<div class="research" id="research">
+    <div class="title-research">Research</div>
 
-    <body id="page-top">
-        <div class="container">
-            <nav class="navigation-bar">
-                <a class="name" href="#page-top">Kejda Llana</a>
-                <div class="nav-list">
-                    <a class="list-element" href="index.html">Home</a>
-                    <a class="list-element" href="cv.html">CV</a>
-                    <a class="list-element" href="research.html">Research</a>
-                </div>
-            </nav>
-            <div class="hrule"></div>
-            <div class="body-things">
-                
-                <div class="research" id="research">
-                    <div class="title-research">Research</div>
-                    <ul>
-                        <li>Building Futures: The Impact of Affordable Housing on Student Achievement (Job Market Paper: <a href="https://drive.google.com/file/d/1an-MYJg9lco-7AId_faK9capLrppby7K/view?usp=sharing";">Link Here</a>)</li>
-                        <div class="abstract">Created in 1986, the Low Income Housing Tax Credit (LIHTC) serves as one of the main subsidized housing policy tools actively tackling housing-related barriers for low-income households via the provision of affordable units across the country. This study provides preliminary evidence on how proximity to LIHTC developments affects K-12 public school students’ educational outcomes. This paper adopts an Event Study Design and a staggered Difference-in-Differences (DiD) approach, utilizing publicly available datasets and student-level administrative data for Wisconsin public school students. Findings suggest that LIHTC exposure generates statistically significant, but modest effects: students in exposed schools experience a 0.49 percentage point decline in attendance rates and a 1.74 percentage point increase in chronic absenteeism. Achievement effects show that ELA scores improve by 0.042 standard deviations while math scores decline by 0.026 standard deviations. Event study analyses show no evidence of differential pre-trends, but reveal persistent negative attendance effects that accumulate over time.</div>
-                        <li>“Nowcasting” of Food Hardship: Applying Machine Learning to Aggregate Retail Sales Data (Under Review)</li>
-                        <div class="abstract">To develop tools to nowcast food hardship, we use national and state-level data from the Household Pulse Survey (HPS) and USDA’s Weekly Retail Food Sales data to identify food insufficiency predictors with Least Absolute Shrinkage and Selection Operator (LASSO). Current and lagged food spending predict food insufficiency in an unexpected positive direction, but unit sales are predictive in the expected direction. Using food spending categories improves predictions. Within categories, Fats, Oils, and Sweeteners, as well as Vegetable sales, possess predictive power across models. Beverages and Grains predict food insufficiency using national data, while Fruit and Other predict using state data.</div>
-                        <li>Expanding Access to “Miracle Drugs”? The Impact of Medicaid Coverage on Take-Up of GLP-1 Medication (Working Paper)</li>
-                        <div class="abstract">GLP-1 (Glucagon-Like Peptide-1) medications – such as Ozempic, Wegovy, and Mounjaro – have gained widespread popularity for their role in promoting weight loss and managing Type-2 diabetes. Yet, despite their potential, their high cost and limited insurance coverage of these medications remain significant barriers to access, particularly among low-income individuals. This research leverages the staggered adoption of Medicaid coverage for GLP-1 to examine whether the expansion of such coverage leads to an increase in GLP-1 medication take-up.  We utilize publicly available quarterly data from the Centers for Medicare & Medicaid Services (CMS) Medicaid State Drug Utilization data from 2018 to 2024, to construct a panel dataset at the state-by-quarter level, and track changes in the volume and composition of Medicaid-reimbursed GLP-1 prescriptions over time. We adopt a simple Difference-in-Difference (DiD) design, comparing states that expanded the Medicaid coverage for weight management to those that did not, while controlling for state and time fixed effects.  Preliminary descriptive statistics indicate significant increases in GLP-1 take-up across the U.S., with some states showing sharp quarter-to-quarter jumps exceeding 50% in prescription volume.</div>
-                    </ul>
-                </div>
-            </div>
+    <ul>
+
+        <!-- JOB MARKET PAPER -->
+        <li>
+            <strong>Building Futures: The Impact of Affordable Housing on Student Achievement</strong>
+            (Job Market Paper:
+            <a href="https://drive.google.com/file/d/1an-MYJg9lco-7AId_faK9capLrppby7K/view?usp=sharing"
+               target="_blank">
+                Paper
+            </a>)
+        </li>
+
+        <div class="abstract">
+            This paper examines how nearby Low-Income Housing Tax Credit (LIHTC)
+            development affects student engagement and academic achievement. I link
+            geocoded HUD LIHTC data with longitudinal administrative records for
+            approximately 2.8 million student-year observations from Wisconsin public
+            schools and use a spatial, staggered difference-in-differences design.
+            LIHTC exposure reduces attendance by 0.69 percentage points and increases
+            chronic absenteeism by 2.28 percentage points. Effects accumulate over time,
+            while achievement effects are more limited: math scores increase by 0.042
+            standard deviations among middle-school students and 0.021 standard
+            deviations among high-school students, with little change in ELA scores.
+            The findings show that place-based housing investments can generate
+            meaningful spillovers for nearby students and schools.
         </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+
+
+        <!-- SECOND SCHOOL PAPER -->
+        <li>
+            <strong>Affordable Housing, School Composition, and Institutional Adjustment:
+            Evidence from LIHTC Placement</strong>
+            (Working Paper)
+        </li>
+
+        <div class="abstract">
+            This paper examines whether affordable housing development reshapes nearby
+            public schools as institutions. Using a Wisconsin school-year panel and a
+            spatial, staggered difference-in-differences design, I estimate the effects
+            of nearby LIHTC placement on racial and ethnic composition, economically
+            disadvantaged enrollment, school diversity, and accountability outcomes.
+            LIHTC placement increases racial and ethnic diversity and the share of
+            economically disadvantaged students while reducing overall school
+            accountability scores. The findings highlight an important institutional
+            dimension of place-based housing policy: affordable housing development can
+            change not only where households live, but also the composition and demands
+            faced by nearby public schools.
+        </div>
+
+
+        <!-- GREAT RECESSION / COGNITIVE AGING -->
+        <li>
+            <strong>Housing Market Shocks, Affordability, and Cognitive Aging:
+            Evidence from the Great Recession</strong>
+            (Working Paper)
+        </li>
+
+        <div class="abstract">
+            This project examines whether housing-market shocks during the Great
+            Recession affected subsequent cognitive aging among older adults. I link
+            restricted longitudinal Health and Retirement Study data with county-level
+            measures of house prices, rents, unemployment, income, and housing
+            affordability. The analysis examines several mechanisms through which
+            housing-market disruptions may influence later-life health, including
+            housing-wealth losses, mortgage distress, and housing-cost burden, with
+            particular attention to households facing greater financial vulnerability.
+        </div>
+
+
+        <!-- GLP-1 -->
+        <li>
+            <strong>Breaking Barriers to Access: Medicaid Coverage, Take-Up, and Exit
+            of GLP-1s</strong>
+            (Working Paper)
+        </li>
+
+        <div class="abstract">
+            This study examines how state Medicaid coverage policies affect utilization
+            of GLP-1 medications for obesity. I construct a state-by-quarter panel using
+            Centers for Medicare &amp; Medicaid Services State Drug Utilization Data
+            from 2019 through 2025 and exploit variation in the timing of state coverage
+            adoption. Medicaid coverage is associated with an increase of approximately
+            11.5 prescriptions for obesity-specific GLP-1 medications per 1,000
+            enrollees per quarter. The analysis also examines how effects evolve over
+            time, differences between fee-for-service and managed-care utilization, and
+            changes in state coverage policy, including subsequent exits.
+        </div>
+
+
+        <!-- HOSPITAL MARKETS -->
+        <li>
+            <strong>Hospital Market Structure and Medical Debt Collections</strong>
+            (Working Paper)
+        </li>
+
+        <div class="abstract">
+            This project examines the relationship between hospital market structure
+            and household medical debt. We link hospital-market information from the
+            American Hospital Association with consumer-credit data from the Federal
+            Reserve Bank of New York/Equifax Consumer Credit Panel. The analysis
+            documents geographic variation in medical collections across counties and
+            hospital referral regions and examines how differences and changes in
+            hospital market structure relate to household financial exposure.
+        </div>
+
+
+        <!-- FOOD HARDSHIP -->
+        <li>
+            <strong>Nowcasting Food Hardship: Applying Machine Learning to Aggregate
+            Retail Sales Data</strong>
+            (Under Review)
+        </li>
+
+        <div class="abstract">
+            This study develops tools to nowcast food hardship using national and
+            state-level Household Pulse Survey data and USDA Weekly Retail Food Sales
+            data. We use Least Absolute Shrinkage and Selection Operator (LASSO)
+            methods to identify retail-sales measures that predict food insufficiency.
+            Food spending, unit sales, and spending across specific food categories
+            provide predictive information, demonstrating the potential for
+            high-frequency retail data to complement traditional measures of household
+            food hardship.
+        </div>
+
+    </ul>
+</div>
